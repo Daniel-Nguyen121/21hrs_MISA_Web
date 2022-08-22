@@ -1,0 +1,148 @@
+@import url(./style.css);
+
+.toast {
+    position: relative;
+    display: flex;
+    height: 48px;
+    width: 300px;
+    line-height: 48px;
+    border-radius: 4px;
+    /* align-items: center; */
+    box-shadow: 0px 3px 6px #000000;
+    padding-left: 48px;
+}
+
+.toast~.toast {
+    margin-top: 20px;
+}
+
+.toast__icon{
+    float: left;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translate(50%, -50%);
+}
+
+.toast__text{
+    font-size: 13px;
+}
+
+.toast__button{
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.toast__button:hover {
+    background-color: #bbbbbb;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.toast__icon--success {
+    background-image: url(../assets/icon/radio-checked.png);
+}
+
+.toast__button--success {
+    background-image: url(../assets/icon/x.svg);
+}
+
+.toast__list {
+
+}
+
+.dialog {
+    border: 1px solid #000000;
+    position: relative;
+    border-radius: 4px;
+}
+
+.dialog__header {
+  /* padding-top: 24px;
+  padding-bottom: 24px;
+  padding-left: 24px;
+  padding-right: 24px; */
+    padding: 24px;
+    
+}
+
+.dialog__content {
+    padding: 24px;
+}
+
+.dialog__content--icon {
+    background-image: url(../assets/icon/radio.svg);
+    background-repeat: no-repeat;
+    background-size: 16px;  
+    /* background-position: 16px center; */
+    background-position-x: 24px;
+    background-position-y: center;
+    padding-left: 50px;
+}
+
+.dialog__footer {
+    background-color: #dddddd;
+    height: 60px;
+}
+
+.dialog__button {
+    background-image: url(../assets/icon/x.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform: translate(-50%, 50%);
+}
+
+.dialog__button:hover {
+    background-color: #bbbbbb;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.dialog__footer--cancel {
+    /* position: absolute;
+    right: 0;
+    top: 0;
+    transform: translate(-50%, 50%); */
+    /* padding-bottom: 10px;
+    padding-top: 10px;
+    padding-right: 24px; */
+    background-color: #464444;
+    position: absolute;
+    right: 124;
+    bottom: 0;
+    transform: translate(175%, -25%);
+}   
+
+.dialog__footer--cancel:hover {
+    background-color: #5e5a5a;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.dialog__footer--cancel:active {
+    background-color: #494444;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.dialog__footer--ok {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    transform: translate(-25%, -25%);
+}

@@ -1,0 +1,50 @@
+@import url(./style.css);
+
+.heading {
+    text-align: center;
+    font-family: MISA Fonts Bold;
+    font-size: 24px;
+    color: #000000;
+}
+
+.first-title {
+    padding-left: 10px;
+    text-align: left;
+    font-family: MISA Fonts Bold;
+    font-size: 20px;
+    color: #000000;
+}
+
+.second-title {
+    /* padding-left: 40px; */
+    padding-bottom: 20px;
+    text-align: left;
+    font-family: MISA Fonts Bold;
+    font-size: 15px;
+    color: #000000;
+}
+
+.input__label-field {
+    text-align: left;
+    font-family: MISA Fonts Medium;
+    font-size: 13px;
+    color: #000000;
+}
+
+.label {
+    text-align: left;
+    font-family: MISA Fonts;
+    font-size: 13px;
+    color: #454545;
+}
+
+.hint-text {
+    text-align: left;
+    font-family: MISA Fonts Regular;
+    font-size: 11px;
+    color: #BBBBBB;
+}
+
+
+
+
